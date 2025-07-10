@@ -1,10 +1,10 @@
 // API URLs
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://pizza-paradise-v1io.onrender.com/api';
 
 // Check if server is running
 async function checkServer() {
     try {
-        const response = await fetch('http://localhost:3000/health', {
+        const response = await fetch('https://pizza-paradise-v1io.onrender.com/health', {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',

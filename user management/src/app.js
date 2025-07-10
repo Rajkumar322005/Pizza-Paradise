@@ -24,7 +24,7 @@ mongoose.connect(config.MONGODB_URI)
 
 // CORS Configuration with specific options
 app.use(cors({
-  origin: ['http://127.0.0.1:5500', 'http://localhost:5500', 'http://localhost:3000'],
+  origin: ['http://127.0.0.1:5500', 'http://localhost:5500', 'https://pizza-paradise-v1io.onrender.com'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
